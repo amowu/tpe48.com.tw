@@ -32,7 +32,9 @@
   import autocomplete from 'autocomplete.js'
 
   const client = algoliasearch('HWJ6NH4DL3', '486c67bf5d6e09cc43816091e4bce882')
-  const index = client.initIndex('AKB48')
+  const members = client.initIndex('members')
+  const teams = client.initIndex('teams')
+
   let search
 
   export default {
@@ -43,8 +45,17 @@
         debug: false,
         openOnFocus: false
       }, [{
-        source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
-        displayKey: 'full_name_ja'
+        source: autocomplete.sources.hits(members),
+        displayKey: 'fullNameKanji',
+        templates: {
+          header: '<div>Members</div>'
+        }
+      }, {
+        source: autocomplete.sources.hits(teams),
+        displayKey: 'name',
+        templates: {
+          header: '<div>Teams</div>'
+        }
       }]).on('autocomplete:selected', function (event, suggestion, dataset) {
         console.log(suggestion, dataset)
       })

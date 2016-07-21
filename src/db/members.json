@@ -1,0 +1,41 @@
+[
+  {
+    "fullNameKanji": "兒玉 遥",
+    "firstNameKanji": "遥",
+    "lastNameKanji": "兒玉",
+    "firstNameRomaji": "haruke",
+    "lastNameRomaji": "kodama",
+    "firstNameHiragana": "はるか",
+    "lastNameHiragana": "こだま",
+    "nickname": "はるっぴ",
+    "team": "HKT48",
+    "lastRanking": 9,
+    "objectID": "BD579A1D-A782-4956-8C29-72811E63C8B0"
+  },
+  {
+    "fullNameKanji": "宮脇 咲良",
+    "firstNameKanji": "咲良",
+    "lastNameKanji": "宮脇",
+    "firstNameRomaji": "sakura",
+    "lastNameRomaji": "miyawaki",
+    "firstNameHiragana": "さくら",
+    "lastNameHiragana": "みやわき",
+    "nickname": "さくら",
+    "team": "HKT48",
+    "lastRanking": 6,
+    "objectID": "487F80F4-972D-47BA-B958-4E8F1C1F4922"
+  },
+  {
+    "fullNameKanji": "島崎 遥香",
+    "firstNameKanji": "遥香",
+    "lastNameKanji": "島崎",
+    "firstNameRomaji": "haruka",
+    "lastNameRomaji": "shimazaki",
+    "firstNameHiragana": "はるか",
+    "lastNameHiragana": "しまざき",
+    "nickname": "ぱるる",
+    "team": "AKB48",
+    "lastRanking": 8,
+    "objectID": "3F18C822-5BD2-4E6D-A814-A9D1073C45C6"
+  }
+]
